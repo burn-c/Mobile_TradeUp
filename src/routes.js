@@ -1,14 +1,14 @@
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 
-import Login from './pages/Login';
+import LoginUser from './pages/LoginUser';
 import ListUser from './pages/ListUser';
 import UserDetails from './pages/UserDetails';
 
 const Routes = createAppContainer(
   createStackNavigator(
     {
-      Login,
+      LoginUser,
       ListUser,
       UserDetails,
     },
