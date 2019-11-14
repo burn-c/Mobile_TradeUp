@@ -8,7 +8,7 @@ export const Container = styled.View`
 
 export const Form = styled.View`
   align-items: center;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   border-bottom-width: 1px;
   border-color: #eee;
 `;
@@ -36,10 +36,17 @@ export const InputPassword = styled.TextInput.attrs({
 export const LoginButton = styled(RectButton)`
   justify-content: center;
   align-self: stretch;
-  background: #177;
+  background: #2e8b57;
   border-radius: 2px;
   margin-left: 5px;
   padding: 0 12px;
   margin-top: 10px;
   align-items: center;
+`;
+export const LoginButtonText = styled.Text`
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding: 5px;
+  color: #eee;
 `;
